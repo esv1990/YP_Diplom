@@ -10,8 +10,8 @@ def post_new_order():
                          json=data.order_create)
 
 
-print(post_new_order().status_code)
-print(post_new_order().text)
+#print(post_new_order().status_code)
+#print(post_new_order().text)
 
 
 # Запрос на получение заказа по его номеру
